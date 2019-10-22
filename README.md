@@ -76,7 +76,7 @@ docker pull paddlepaddle/paddle:latest-dev
 # paddle国内镜像
 docker pull hub.baidubce.com/paddlepaddle/paddle:latest-dev
 # paddle运行命令
-docker run -it --rm docker.paddlepaddlehub.com/paddle  /bin/bash
+docker run -it --rm paddlepaddle/paddle:latest-dev  /bin/bash
 ```
 
 ## Demo
