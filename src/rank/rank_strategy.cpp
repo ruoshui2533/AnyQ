@@ -464,6 +464,7 @@ int RankStrategy::run_strategy(const AnalysisResult& analysis_res,
     }
 
     RankResult trans_candidates = tmp_candidates;
+    /*
     if (_deep_rank_with_anwser) {
         trans_answer_info(tmp_candidates, trans_candidates);
     }
@@ -472,7 +473,7 @@ int RankStrategy::run_strategy(const AnalysisResult& analysis_res,
         return -1;
     }
     DEBUG_LOG("after rank, remain %d cands", trans_candidates.size());
-
+    */
     // 排序
     std::sort(trans_candidates.begin(), trans_candidates.end(), candidate_cmp);
     // answer排序时，删除重复answer
